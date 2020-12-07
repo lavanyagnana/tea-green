@@ -1,4 +1,4 @@
-const key = '';
+const key = '3c61579c5610a960bd622618dfd8c021';
 
 if (key == '') {
 	localStorage.removeItem('city');
