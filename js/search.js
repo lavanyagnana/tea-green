@@ -16,7 +16,7 @@ function search(query) {
 	switch(query.substr(0, 2)){
 		case "-g":
 			query = query.substr(3);
-			window.open("https://github.com/search?q={}" +
+			window.open("https://github.com/search?q=" +
 			query.replaceChars(" ", "%20"), '_blank');
 		break;
 		case "-y":
